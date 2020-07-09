@@ -1,0 +1,21 @@
+model{
+
+for(i in 1:553){
+y[i] ~ dbern(pi[i])probit(pi[i])<-alpha[class[i]]+beta[class[i]]*x[i]
+
+}
+
+for(j in 1:3){
+alpha[j] ~ dnorm(MeanA, TauA)
+beta[j] ~ dnorm(MeanB, TauB)
+}
+MeanA ~ dnorm(0, .01)
+MeanB ~ dnorm(0, .01)
+SigmaA ~ dunif(0, 100)
+SigmaB ~ dunif(0, 100)
+Sigma ~ dunif(0, 100)
+TauA <- pow(SigmaA, -2)
+TauB <- pow(SigmaB, -2)
+Tau <- pow(Sigma, -2)
+}
+

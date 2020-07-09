@@ -1,0 +1,12 @@
+model{
+
+  for(i in 1:N){
+    y[i] ~ dnorm(mu, tau)
+  }
+  
+  mu ~ dnorm(0, .01)
+  
+  tau ~ dgamma(.001, .001)
+  sigma <- pow(tau, -1/2)
+
+}
