@@ -3,12 +3,15 @@
 Here you will find code examples relating to computational political analysis, mostly relating to Chile Using data from the Survey conducted by the [Centro de estudios Públicos (CEP)](https://www.cepchile.cl).
 
 ## R
-Bayesian hierarchical probit model
+* Multidimensional Unfolding (see plot below)
+* [Bayesian hierarchical probit model](https://github.com/rarmijok/Analytical-Politics/tree/master/R/Bayesian%20hierarchical%20probit%20model)
+* [Shiny apps for visualizing spatial data](https://github.com/rarmijok/Analytical-Politics/tree/master/R/Shiny%20Apps)
 
 
 ## Python Jupyter notebooks
 * [Exploratory Survey Analysis](https://github.com/rarmijok/Analytical-Politics/blob/master/Exploratory.ipynb)
 * [Unsupervised machine learning](https://github.com/rarmijok/Analytical-Politics/blob/master/Unsupervised.ipynb)
+* Supervised machine learning
 
 
 
