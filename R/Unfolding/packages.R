@@ -1,0 +1,7 @@
+install.packages("smacof")
+install.packages("coda")
+install.packages("sm")
+install.packages("Rmpfr")
+install.packages("foreign")
+install.packages("rgl")
+install.packages("plyr")
