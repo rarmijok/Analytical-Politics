@@ -9,8 +9,8 @@ Here you will find code examples relating to computational political analysis, m
 
 
 ## Python Jupyter notebooks
-* [Exploratory Survey Analysis](https://github.com/rarmijok/Analytical-Politics/blob/master/Exploratory.ipynb)
-* [Unsupervised machine learning](https://github.com/rarmijok/Analytical-Politics/blob/master/Unsupervised.ipynb)
+* [Exploratory Survey Analysis](https://github.com/rarmijok/Analytical-Politics/blob/master/Python/Exploratory.ipynb)
+* [Unsupervised machine learning](https://github.com/rarmijok/Analytical-Politics/blob/master/Python/Unsupervised.ipynb)
 * Supervised machine learning
 
 
